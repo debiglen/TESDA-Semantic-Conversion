@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+    <nav>
+        <a href="https://e-tesda.gov.ph" class="navbar-brand has-logo"></a>
+        <span class="logo d-none d-sm-inline">
+            <img
+              src="//e-tesda.gov.ph/pluginfile.php/1/theme_etesda/logo/1683291124/TESDALOGO%20resize.png"
+              alt="TOP"
+            /> </span></a>
+    </nav>
+</header>
+
+<nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About Tesda</a>
+      <a href="contact.html">Contact</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+
+<main>
+    <article>
+    <h1>Feedback Form</h1>
+    <form action="submit_feedback.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </article>
+    <footer>
+        <p>&copy; 2023 TESDA - All rights reserved.</p>
+      </footer>
+</main>
+    
+</body>
+</html>
+
